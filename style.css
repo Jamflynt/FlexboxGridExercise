@@ -92,8 +92,13 @@ section:not(#three) {
 /* Bonus 3 */
 #brown {
     align-self: flex-start;
+    order: 3;
 }
 #orange {
+    order: 2;
+}
+#purple {
+    order: 1;
     align-self: flex-end;
 }
 
