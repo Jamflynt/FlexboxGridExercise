@@ -62,7 +62,7 @@ section:not(#three) {
 
   #one {
       display: flex;
-      justify-content: end;
+      justify-content: flex-end; /* had this as 'end' and not 'flex-end' */
       flex-direction: column;
       align-items: center;
   }
